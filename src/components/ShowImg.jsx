@@ -52,7 +52,7 @@ function Colors({ setSelectedColor, data }) {
           <li
             key={id}
             onClick={() => setSelectedColor(watch.img)}
-            className={`${watch.color} aspect-square w-4 rounded-full border border-white relative not-last:after:absolute not-last:after:top-0 not-last:after:right-1/2 not-last:after:translate-x-1/2 not-last:after:-z-10 not-last:after:h-10 not-last:after:border-l-2 not-last:after:border-dotted not-last:after:border-white hover:scale-105 cursor-pointer`}
+            className={`${watch.color} aspect-square w-4 rounded-full border border-white relative not-last:after:absolute not-last:after:top-0 not-last:after:right-1/2 not-last:after:translate-x-1/2 not-last:after:-z-10 not-last:after:h-10 not-last:after:border-l-2 not-last:after:border-dotted not-last:after:border-white cursor-pointer`}
           />
         );
       })}
