@@ -29,3 +29,11 @@ body {
     grid-column: 2;
   }
 }
+
+.highlight {
+  background-color: white;
+  color: #b8cedc;
+  border-radius: 25px;
+  padding-inline: 2rem;
+  padding-block: 0.3rem;
+}
