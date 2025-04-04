@@ -36,4 +36,5 @@ body {
   border-radius: 25px;
   padding-inline: 2rem;
   padding-block: 0.3rem;
+  width: fit-content;
 }
